@@ -5,8 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+     header{
+         width:100%;
+     }
+     header nav{
+         background:rgb(0,0,0,0.5);
+         width:95%;
+         z-index:1000;
+         margin:20px auto;
+     }
+     header nav ul{
+         list-style: none;
+     }
+     header nav ul li{
+         display:inline-block;
+     }
+     header nav ul li a{
+         text-decoration:none;
+         color: #fff;
+         padding:20xp;
+         display:block;
+     }
+     header nav ul li a:hover{
+         background:green;
+     }
+     .focus{
+         background:#ccc;
+     }
+
+    </style>
 </head>
 <body>
-    hola mundo
+   <header>
+       <nav>
+           <ul>
+               <li class="focus"><a href="#">Inicio</a></li>
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#">Inicio</a></li>
+           </ul>
+       </nav>
+   </header>
 </body>
 </html>
